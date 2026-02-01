@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #020617, #020617);
+}
+
+/* Page layout */
+.page {
+  min-height: 100vh;
+  padding: 40px;
+  color: white;
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+/* Card (main box like your image) */
+.card {
+  width: 420px;
+  height: 260px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  height: 140px;
+  resize: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Counter */
+.counter {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
